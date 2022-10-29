@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+   display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(12, 0, 0);
+    background: transparent;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+/* .a{
+    text-decoration: none;
+    color: rgb(185, 23, 23);
+} */
+ul{
+    list-style: none;
+    justify-content: space-between;
+}
+.active{
+    color: rgb(0, 255, 128);
+    text-decoration: underline;
+    font-weight: bold;
+}
+body ,html {
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/white\ old\ car.jpg');
+    background-position: none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 340px;
+    color: rgba(12, 0, 0,);
+    text-align: center;
+}
+.header-content h2{
+    font-size:1.4rem;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+}
+/* .header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+} */
+.ctn{
+    padding: 8px 15px;
+    background: #4607da;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+/* Events */
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #1eaa11;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col img{
+    width: 80%;
+
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 1.2rem;
+    color: black;
+    margin: 20px auto;
+}
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+
+}
+.events .ctn{
+    margin-top: 30px;
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/gJSU1Hh-latest-cars-wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.explore-content{
+    width: 60%;
+    /* padding: 50px; */
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.explore-content h1{
+    font-size: 1.8rem;
+    /* margin-top: 50px; */
+}
+.explore-content .line{
+    margin-bottom: 20px;
+}
+.explore-content p{
+    color: white;
+}
+.explore-content .ctn{
+    margin-top: 10px;
+}
+.inside-car .row .col{
+    width: 100%;
+}
+.content-col{
+    width: 50%;
+}
+.image-col{
+    width: 50%;
+}
+.inside-car .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+      margin: 10px;
+    height: 300px;
+    width: 300px !important;
+}
+.content-col h1{
+    font-size: 1.8rem;
+    color: #484872;
+}
+.content-col .line{
+margin-left: -10px;
+margin: 10px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px;
+}
+.content-col .ctn{
+    margin-left: -10px;
+
+}
+
+
+
